@@ -3,6 +3,8 @@ import Main from "./components/Main";
 import About from "./components/About";
 import HowToBuy from "./components/HowToBuy";
 import Tokenomics from "./components/Tokenomics";
+import Faqs from "./components/Faqs";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -12,6 +14,8 @@ const App = () => {
       <About />
       <HowToBuy />
       <Tokenomics />
+      <Faqs />
+      <Footer />
     </div>
   );
 };

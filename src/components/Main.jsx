@@ -12,7 +12,7 @@ const Main = () => {
       ([entry]) => {
         setIsIntersecting(entry.isIntersecting);
       },
-      { rootMargin: "-100px" },
+      { rootMargin: "-50px" },
     );
 
     observer.observe(ref.current);
@@ -22,7 +22,7 @@ const Main = () => {
 
   return (
     <main
-      className="my-2 flex min-h-[80%] w-full flex-wrap items-center justify-between px-3 pb-3 md:justify-around lg:mx-auto lg:mt-5 lg:w-5/6"
+      className="my-5 flex min-h-[50%] w-full flex-wrap items-center justify-between px-3 pb-3 md:justify-around lg:mx-auto lg:mt-5 lg:w-5/6"
       ref={ref}
     >
       <div

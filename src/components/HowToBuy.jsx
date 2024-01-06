@@ -29,8 +29,8 @@ const data = [
 
 const HowToBuy = () => {
   return (
-    <section id="howToBuy" className="my-4 px-2">
-      <h2 className="my-5 text-center font-DMSerif text-3xl text-white md:text-5xl">
+    <section id="howToBuy" className="my-7 px-2">
+      <h2 className="mb-5 text-center font-DMSerif text-3xl text-white md:text-5xl">
         How to{" "}
         <span className="font-RubikGlitch text-3xl text-[#1109AA] md:text-5xl">
           buy

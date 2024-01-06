@@ -6,7 +6,7 @@ const navLinks = [
   { id: 0, path: "#about", name: "about" },
   { id: 1, path: "#howToBuy", name: "how to buy" },
   { id: 2, path: "#tokenomics", name: "tokenomics" },
-  { id: 3, path: "#roadmap", name: "roadmap" },
+  { id: 3, path: "#faqs", name: "FAQs" },
 ];
 
 const Header = () => {
