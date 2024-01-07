@@ -30,7 +30,7 @@ const data = [
 const HowToBuy = () => {
   return (
     <section id="howToBuy" className="my-7 px-2">
-      <h2 className="mb-5 text-center font-DMSerif text-3xl text-white md:text-5xl">
+      <h2 className="mb-5 text-center font-DMSerif text-3xl  md:text-5xl">
         How to{" "}
         <span className="font-RubikGlitch text-3xl text-[#1109AA] md:text-5xl">
           buy
@@ -49,15 +49,15 @@ const HowToBuy = () => {
               className={`mx-auto my-6 w-4/5 rounded-2xl border border-[#1109aacb] bg-transparent px-3 pb-5 md:col-span-2 md:w-3/4 md:px-5 md:pb-3`}
               key={datum.id}
             >
-              <button className="relative -top-4 left-6 rounded-lg border border-[#1109aacb] bg-[#1109aa] px-2 py-1 font-DMSerif text-base text-white">
+              <button className="relative -top-4 left-6 rounded-lg border border-[#1109aacb] bg-[#1109aa] px-2 py-1 font-DMSerif text-base ">
                 Step {datum.id}
               </button>
 
-              <h4 className="mb-4 text-center text-xl font-bold text-white">
+              <h4 className="mb-4 text-center text-xl font-bold ">
                 {datum.topic}
               </h4>
 
-              <p className="text-white">{datum.paragraph}</p>
+              <p className="">{datum.paragraph}</p>
             </div>
           );
         })}

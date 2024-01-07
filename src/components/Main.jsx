@@ -34,11 +34,11 @@ const Main = () => {
           tukay
         </h1>
 
-        <h2 className="font-DMSerif text-2xl font-bold text-white lg:text-4xl">
+        <h2 className="font-DMSerif text-2xl font-bold  lg:text-4xl">
           The most memeable memecoin
         </h2>
 
-        <p className="my-2 font-DMSerif text-base text-white lg:text-xl">
+        <p className="my-2 font-DMSerif text-base  lg:text-xl">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
           modi corporis ea, labore voluptatum consequuntur doloribus. Adipisci,
           placeat? Accusamus illum harum sunt quia, quo ipsam. Nulla labore
@@ -46,10 +46,8 @@ const Main = () => {
         </p>
 
         <div className="mt-2">
-          <h3 className="font-DMSerif text-xl capitalize text-white">
-            contract address
-          </h3>
-          <button className="mt-1 rounded-lg border-2 border-[#1109aacb] bg-[#1109aa41] p-3 text-white">
+          <h3 className="font-DMSerif text-xl capitalize ">contract address</h3>
+          <button className="mt-1 rounded-lg border-2 border-[#1109aacb] bg-[#1109aa41] p-3 ">
             Loremipsumdolorsitametcodasdasd{" "}
             <IoCopy className="mx-1 inline-block " />
           </button>

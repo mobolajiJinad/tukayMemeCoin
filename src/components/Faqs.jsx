@@ -54,7 +54,7 @@ const Faqs = () => {
     <section id="faqs" className="my-7" ref={ref}>
       <div className="mb-10 mt-3">
         <h2 className="text-center text-2xl font-bold text-[#552bee]">FAQs</h2>
-        <h3 className="my-2 text-center font-RubikGlitch text-4xl capitalize text-white">
+        <h3 className="my-2 text-center font-RubikGlitch text-4xl capitalize ">
           frequently asked <span className="text-[#552bee]">questions</span>
         </h3>
       </div>
@@ -68,25 +68,25 @@ const Faqs = () => {
             }`}
           >
             <div className="flex items-center justify-between">
-              <h3 className="my-4 text-xl font-bold text-white md:text-2xl">
+              <h3 className="my-4 text-xl font-bold  md:text-2xl">
                 {datum.title}
               </h3>
 
               {expand[index] ? (
                 <CiCircleMinus
-                  className="cursor-pointer text-5xl font-bold text-white md:text-3xl"
+                  className="cursor-pointer text-5xl font-bold  md:text-3xl"
                   onClick={() => handleExpandToggle(index)}
                 />
               ) : (
                 <CiCirclePlus
-                  className="cursor-pointer text-5xl font-bold text-white md:text-3xl"
+                  className="cursor-pointer text-5xl font-bold  md:text-3xl"
                   onClick={() => handleExpandToggle(index)}
                 />
               )}
             </div>
 
             {expand[index] && (
-              <p className="mb-4 text-base text-white transition-all duration-200 ease-in">
+              <p className="mb-4 text-base  transition-all duration-200 ease-in">
                 {datum.explanation}
               </p>
             )}

@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="mx-auto my-5 w-5/6 text-white">
+    <footer className="mx-auto my-5 mt-28 w-5/6 ">
       <div className="flex w-full items-center">
         <img src={logo} width="45px" height="45px" alt="" />
         <h2 className="mx-5 font-RubikGlitch text-3xl">tukay</h2>

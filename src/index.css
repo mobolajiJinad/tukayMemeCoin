@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  color: white;
+}
+
 body {
   background: linear-gradient(to right, #552bee, #331acc, #2211bb, #1109aa);
 }
+

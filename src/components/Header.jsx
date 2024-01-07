@@ -17,11 +17,11 @@ const Header = () => {
   };
 
   return (
-    <header className="flex items-center justify-between bg-transparent px-3 py-4 shadow-lg">
-      <h1 className="font-RubikGlitch text-4xl uppercase">tukay</h1>
+    <header className="flex items-center justify-between bg-transparent px-3 py-4 pl-5 shadow-lg">
+      <h1 className="font-RubikGlitch text-4xl font-bold uppercase ">tukay</h1>
 
       <div className="flex items-center justify-between">
-        <button className="order-1 mx-4 rounded-2xl bg-[#1109AA] px-5 py-2 font-RubikGlitch text-base uppercase text-black hover:bg-[#331ACC] md:order-2">
+        <button className="order-1 mx-4 rounded-2xl bg-[#331acc] px-5 py-2 font-RubikGlitch text-base uppercase  hover:bg-[#552bee] md:order-2">
           buy now
         </button>
 
@@ -66,7 +66,7 @@ const DropDownMenu = ({ isOpen, closeMenu }) => {
             smooth
             to={link.path}
             key={link.id}
-            className="my-4 block text-center font-RubikGlitch text-lg capitalize tracking-widest text-white hover:text-gray-500 md:mx-2 md:my-0 lg:mx-3"
+            className="my-4 block text-center font-RubikGlitch text-lg capitalize tracking-widest  hover:text-gray-500 md:mx-2 md:my-0 lg:mx-3"
             onClick={handleClick}
           >
             {link.name}

@@ -30,18 +30,18 @@ const About = () => {
           isIntersecting ? "translate-x-0" : "-translate-x-[150%]"
         }`}
       >
-        <h2 className="text-center font-DMSerif text-3xl text-white md:text-5xl">
+        <h2 className="text-center font-DMSerif text-3xl  md:text-5xl">
           What is{" "}
           <span className="font-RubikGlitch text-3xl text-[#1109AA] md:text-5xl">
             tukay?
           </span>
         </h2>
 
-        <p className="my-5 mb-9 px-1 font-DMSerif text-2xl text-white md:bg-white md:text-black">
+        <p className="my-5 mb-9 px-1 font-DMSerif text-2xl  md:bg-white md:text-black">
           An open-source peer-to-peer digital currency, favoured by everyone!
         </p>
 
-        <p className="font-DMSerif text-lg text-white">
+        <p className="font-DMSerif text-lg ">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
           laudantium enim ullam nihil eveniet recusandae sit possimus voluptatem
           tempore pariatur! Officiis nulla amet quos fugiat quisquam deleniti
