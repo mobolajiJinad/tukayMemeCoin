@@ -18,7 +18,9 @@ const Header = () => {
 
   return (
     <header className="flex items-center justify-between bg-transparent px-3 py-4 pl-5 shadow-lg">
-      <h1 className="font-RubikGlitch text-4xl font-bold uppercase ">tukay</h1>
+      <h1 className="font-RubikGlitch text-4xl uppercase md:font-bold ">
+        tukay
+      </h1>
 
       <div className="flex items-center justify-between">
         <button className="order-1 mx-4 rounded-2xl bg-[#331acc] px-5 py-2 font-RubikGlitch text-base uppercase  hover:bg-[#552bee] md:order-2">
